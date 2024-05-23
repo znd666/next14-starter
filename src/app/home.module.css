@@ -38,3 +38,20 @@
   flex: 1;
   position: relative;
 }
+@media (width < 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}
+@media (width < 768px) {
+  .title {
+    font-size: 64px;
+  }
+  .brands {
+    width: 100%;
+  }
+}
